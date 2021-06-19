@@ -38,7 +38,7 @@ To use the Clang toolchain inside the container, execute commands via {Podman}.
 
 [source,sh]
 ----
-➜ podman run --rm -p 2222:22 --volume "$HOME":/home/user:Z -dt --name clang-ssh quay.io/jwillikers/clang-ssh
+➜ podman run --rm -p 2222:22 --volume "$HOME":/home/user:Z -dt --name clang-ssh quay.io/jwillikers/clang-ssh:latest
 ----
 
 == Build
